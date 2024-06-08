@@ -1,1 +1,18 @@
-/nix/store/kac5y515kc5nac2mcq7c8win1jx5fxpr-home-manager-files/.config/nvim/lua/plugins/mason.lua
+return {
+  "mason.nvim",
+  enabled = true,
+  opts = {
+    ensure_installed = {
+      "lua-language-server",
+      "pyright",
+      "nil",
+      "pylint",
+      "shfmt",
+      "deno",
+      "json-lsp",
+      "omnisharp",
+      "ast-grep",
+    },
+  },
+}
+

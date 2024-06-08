@@ -1,1 +1,3 @@
-/nix/store/kac5y515kc5nac2mcq7c8win1jx5fxpr-home-manager-files/.config/nvim/lua/plugins/git-blame.lua
+return {
+  "f-person/git-blame.nvim"
+}

@@ -1,1 +1,4 @@
-/nix/store/kac5y515kc5nac2mcq7c8win1jx5fxpr-home-manager-files/.config/nvim/README.md
+# 💤 LazyVim
+
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.

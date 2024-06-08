@@ -1,1 +1,4 @@
-/nix/store/kac5y515kc5nac2mcq7c8win1jx5fxpr-home-manager-files/.config/nvim/lua/plugins/telescope.lua
+return {
+  "nvim-telescope/telescope.nvim",
+  dependencies = { "nvim-lua/plenary.nvim" }
+}

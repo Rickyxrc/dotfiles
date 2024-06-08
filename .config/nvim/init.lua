@@ -1,1 +1,8 @@
-/nix/store/kac5y515kc5nac2mcq7c8win1jx5fxpr-home-manager-files/.config/nvim/init.lua
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
+
+local lspconfig = require('lspconfig')
+lspconfig.rust_analyzer.setup {}
+lspconfig.ast_grep.setup {}
+lspconfig.lua_ls.setup {}
+lspconfig.nil_ls.setup {}
